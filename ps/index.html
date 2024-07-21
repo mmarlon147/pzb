@@ -1,71 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '413272581063255');
-fbq('track', 'AddToCart');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=413272581063255&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificação</title>
+    <title>Layout Ajustado</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
         .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 300px;
+            margin: 0 auto;
             text-align: center;
+            font-family: Arial, sans-serif;
         }
         .thumbs-up {
             font-size: 48px;
-            color: #1877f2;
-        }
-        .checkbox-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        .checkbox-container input {
-            margin-right: 5px;
+            margin-bottom: 10px;
         }
         .continue-button {
-            background-color: #4CAF50;
-            border: none;
-            color: black;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
             display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 4px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -73,9 +30,7 @@ src="https://www.facebook.com/tr?id=413272581063255&ev=PageView&noscript=1"
     <div class="container">
         <div class="thumbs-up">👍</div>
         <p><strong>Tudo certo!</strong></p>
-        <p>Marque "Clique em continuar para assistir</p>
-        
-        </div>
+        <p>Clique em continuar para assistir</p>
         <a href="http://www.codigosemdor.site/pv" class="continue-button">Continuar</a>
     </div>
 </body>
